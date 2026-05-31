@@ -3,7 +3,7 @@
 Proyek ini adalah sistem monitoring kualitas udara dan cuaca ruangan secara real-time menggunakan mikrokontroler **ESP8266**, sensor **DHT11**, dan **MQ135** yang terintegrasi penuh ke web server berbasis **CodeIgniter 4** menggunakan visualisasi grafik interaktif **Chart.js**.
 
 ---
-# 🚀 Panduan Instalasi Proyek
+## 🚀 Panduan Instalasi Proyek
 
 Ikuti langkah-langkah di bawah ini untuk melakukan instalasi dan konfigurasi proyek pada perangkat keras (Hardware/IoT) dan server lokal (Web) Anda.
 
