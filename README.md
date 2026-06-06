@@ -11,14 +11,30 @@ Ikuti langkah-langkah di bawah ini untuk melakukan instalasi dan konfigurasi pro
 
 Ikuti panduan berikut secara berurutan untuk menjalankan proyek dari sisi hardware hingga website:
 
-### 1. 📦 Instalasi Dependensi Website (Composer)
-Sebelum melakukan konfigurasi pada website, pastikan semua library dan core framework CodeIgniter 4 terinstal dengan lengkap:
-* Buka terminal (Command Prompt / Power Shell / Git Bash).
-* Masuk ke dalam direktori folder website proyek Anda:
-  ```bash
-  cd path/to/folder/monitoring-ruangan
-  ```
-* Tunggu hingga proses selesai. Langkah ini wajib dilakukan agar web server tidak mengalami error *Class not found*.
+### ### 1. 📥 Clone Repository dan Pindahkan ke Folder Web Server
+
+* Clone repository proyek:
+
+```bash
+git clone https://github.com/busyrajalal/monitoring-ruang.git
+```
+
+* Pindahkan folder hasil clone ke direktori web server.
+
+**XAMPP:**
+
+```text
+C:\xampp\htdocs\
+```
+
+Sehingga struktur folder menjadi:
+
+```text
+htdocs/
+└── monitoring-ruang/
+```
+
+Tunggu hingga proses selesai sebelum melanjutkan ke langkah berikutnya.
 
 ### 2.🔌 Konfigurasi Hardware (ESP8266 / Arduino IDE)
 Sebelum mengunggah kode program ke NodeMCU ESP8266, buka file program di folder `monitoring-ruangan\file database dan ino\monitoring-ruang` menggunakan aplikasi Arduino IDE, lalu sesuaikan konfigurasi jaringan dan server berikut:
