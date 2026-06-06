@@ -23,16 +23,14 @@ Ikuti panduan berikut secara berurutan untuk menjalankan proyek dari sisi hardwa
 
     **XAMPP:**
     
-        ```text
         C:\xampp\htdocs\
-        ```
+        
     
     Sehingga struktur folder menjadi:
     
-        ```text
         htdocs/
         └── monitoring-ruang/
-        ```
+        
 
 ### 2.🔌 Konfigurasi Hardware (ESP8266 / Arduino IDE)
 Sebelum mengunggah kode program ke NodeMCU ESP8266, buka file program di folder `monitoring-ruangan\file database dan ino\monitoring-ruang` menggunakan aplikasi Arduino IDE, lalu sesuaikan konfigurasi jaringan dan server berikut:
