@@ -21,20 +21,18 @@ Ikuti panduan berikut secara berurutan untuk menjalankan proyek dari sisi hardwa
 
 * Pindahkan folder hasil clone ke direktori web server.
 
-**XAMPP:**
-
-    ```text
-    C:\xampp\htdocs\
-    ```
-
-Sehingga struktur folder menjadi:
-
-    ```text
-    htdocs/
-    └── monitoring-ruang/
-    ```
-
-Tunggu hingga proses selesai sebelum melanjutkan ke langkah berikutnya.
+    **XAMPP:**
+    
+        ```text
+        C:\xampp\htdocs\
+        ```
+    
+    Sehingga struktur folder menjadi:
+    
+        ```text
+        htdocs/
+        └── monitoring-ruang/
+        ```
 
 ### 2.🔌 Konfigurasi Hardware (ESP8266 / Arduino IDE)
 Sebelum mengunggah kode program ke NodeMCU ESP8266, buka file program di folder `monitoring-ruangan\file database dan ino\monitoring-ruang` menggunakan aplikasi Arduino IDE, lalu sesuaikan konfigurasi jaringan dan server berikut:
