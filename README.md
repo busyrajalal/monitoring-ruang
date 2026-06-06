@@ -11,28 +11,28 @@ Ikuti langkah-langkah di bawah ini untuk melakukan instalasi dan konfigurasi pro
 
 Ikuti panduan berikut secara berurutan untuk menjalankan proyek dari sisi hardware hingga website:
 
-### ### 1. 📥 Clone Repository dan Pindahkan ke Folder Web Server
+### 1. 📥 Clone Repository dan Pindahkan ke Folder Web Server
 
 * Clone repository proyek:
 
-```bash
-git clone https://github.com/busyrajalal/monitoring-ruang.git
-```
+    ```bash
+    git clone https://github.com/busyrajalal/monitoring-ruang.git
+    ```
 
 * Pindahkan folder hasil clone ke direktori web server.
 
 **XAMPP:**
 
-```text
-C:\xampp\htdocs\
-```
+    ```text
+    C:\xampp\htdocs\
+    ```
 
 Sehingga struktur folder menjadi:
 
-```text
-htdocs/
-└── monitoring-ruang/
-```
+    ```text
+    htdocs/
+    └── monitoring-ruang/
+    ```
 
 Tunggu hingga proses selesai sebelum melanjutkan ke langkah berikutnya.
 
